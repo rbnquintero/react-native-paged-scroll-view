@@ -1,12 +1,12 @@
 {
-  "name": "react-native-paged-scroll-view",
+  "name": "react-native-paged-scroll-view-r",
   "version": "2.0.4",
   "description": "A higher-order React Native component to compute the current and total pages of a ScrollView",
-  "main": "./src/PagedScrollView.js",
+  "main": "./src/PagedScrollViewR.js",
   "scripts": {
-    "test": "semistandard src/PagedScrollView.js",
+    "test": "semistandard src/PagedScrollViewR.js",
     "clean": "rimraf lib",
-    "build": "mkdir -p lib && babel src --out-dir lib && cp lib/PagedScrollView.js PagedScrollViewExample/PagedScrollView.js",
+    "build": "mkdir -p lib && babel src --out-dir lib && cp lib/PagedScrollViewR.js PagedScrollViewExample/PagedScrollView.js",
     "prepublish": "npm run test && npm run clean && npm run build"
   },
   "keywords": [
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/rreusser/react-native-paged-scroll-view.git"
+    "url": "git://github.com/rbnquintero/react-native-paged-scroll-view.git"
   },
   "author": "Ricky Reusser",
   "license": "MIT",

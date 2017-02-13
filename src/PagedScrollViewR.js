@@ -12,7 +12,7 @@ function isPresent (datum) {
   return datum !== undefined && !Number.isNaN(datum);
 }
 
-var AddPaging = (ComposedComponent, scrollViewRefPropName) => {
+var AddPagingR = (ComposedComponent, scrollViewRefPropName) => {
   var ComposedClass = class extends Component {
     constructor (props) {
       super(props);
@@ -218,4 +218,4 @@ var AddPaging = (ComposedComponent, scrollViewRefPropName) => {
   return ComposedClass;
 };
 
-export default AddPaging;
+export default AddPagingR;
